@@ -1,0 +1,175 @@
+-- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
+
+-- Instances:
+
+local Converted = {
+	["_ScreenGui"] = Instance.new("ScreenGui");
+	["_Frame"] = Instance.new("Frame");
+	["_TextLabel"] = Instance.new("TextLabel");
+	["_x"] = Instance.new("TextButton");
+	["_LocalScript"] = Instance.new("LocalScript");
+	["_l"] = Instance.new("TextButton");
+	["_LocalScript1"] = Instance.new("LocalScript");
+	["_TextLabel1"] = Instance.new("TextLabel");
+	["_TextLabel2"] = Instance.new("TextLabel");
+	["_TextLabel3"] = Instance.new("TextLabel");
+	["_TextLabel4"] = Instance.new("TextLabel");
+}
+
+-- Properties:
+
+Converted["_ScreenGui"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_ScreenGui"].Parent = game:GetService("CoreGui")
+
+Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame"].BorderSizePixel = 0
+Converted["_Frame"].Position = UDim2.new(7.75541977e-08, 0, 0, 0)
+Converted["_Frame"].Size = UDim2.new(0.99999994, 0, 1, 0)
+Converted["_Frame"].Parent = Converted["_ScreenGui"]
+
+Converted["_TextLabel"].Font = Enum.Font.Code
+Converted["_TextLabel"].Text = "LOADER"
+Converted["_TextLabel"].TextColor3 = Color3.fromRGB(0, 255, 0)
+Converted["_TextLabel"].TextScaled = true
+Converted["_TextLabel"].TextSize = 14
+Converted["_TextLabel"].TextWrapped = true
+Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].BackgroundTransparency = 1
+Converted["_TextLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel"].BorderSizePixel = 0
+Converted["_TextLabel"].Position = UDim2.new(0.248214245, 0, 0.36944443, 0)
+Converted["_TextLabel"].Size = UDim2.new(0, 942, 0, 134)
+Converted["_TextLabel"].Parent = Converted["_Frame"]
+
+Converted["_x"].Font = Enum.Font.Code
+Converted["_x"].Text = "X"
+Converted["_x"].TextColor3 = Color3.fromRGB(0, 255, 0)
+Converted["_x"].TextScaled = true
+Converted["_x"].TextSize = 14
+Converted["_x"].TextWrapped = true
+Converted["_x"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_x"].BackgroundTransparency = 1
+Converted["_x"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_x"].BorderSizePixel = 0
+Converted["_x"].Position = UDim2.new(0.980192482, 0, 0, 0)
+Converted["_x"].Size = UDim2.new(0, 32, 0, 28)
+Converted["_x"].Name = "x"
+Converted["_x"].Parent = Converted["_Frame"]
+
+Converted["_l"].Font = Enum.Font.Code
+Converted["_l"].Text = "LOAD "Zyph Hub""
+Converted["_l"].TextColor3 = Color3.fromRGB(0, 255, 0)
+Converted["_l"].TextScaled = true
+Converted["_l"].TextSize = 14
+Converted["_l"].TextWrapped = true
+Converted["_l"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_l"].BackgroundTransparency = 1
+Converted["_l"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_l"].BorderSizePixel = 0
+Converted["_l"].Position = UDim2.new(0.0904559568, 0, 0.658617139, 0)
+Converted["_l"].Size = UDim2.new(0, 1461, 0, 152)
+Converted["_l"].Name = "l"
+Converted["_l"].Parent = Converted["_Frame"]
+
+Converted["_TextLabel1"].Font = Enum.Font.Code
+Converted["_TextLabel1"].Text = "GUI"
+Converted["_TextLabel1"].TextColor3 = Color3.fromRGB(0, 255, 0)
+Converted["_TextLabel1"].TextScaled = true
+Converted["_TextLabel1"].TextSize = 14
+Converted["_TextLabel1"].TextWrapped = true
+Converted["_TextLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel1"].BackgroundTransparency = 1
+Converted["_TextLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel1"].BorderSizePixel = 0
+Converted["_TextLabel1"].Position = UDim2.new(0.248214215, 0, 0.217324734, 0)
+Converted["_TextLabel1"].Size = UDim2.new(0, 942, 0, 134)
+Converted["_TextLabel1"].Parent = Converted["_Frame"]
+
+Converted["_TextLabel2"].Font = Enum.Font.Code
+Converted["_TextLabel2"].Text = "FLOFLOWERCOOPS"
+Converted["_TextLabel2"].TextColor3 = Color3.fromRGB(0, 255, 0)
+Converted["_TextLabel2"].TextScaled = true
+Converted["_TextLabel2"].TextSize = 14
+Converted["_TextLabel2"].TextWrapped = true
+Converted["_TextLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel2"].BackgroundTransparency = 1
+Converted["_TextLabel2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel2"].BorderSizePixel = 0
+Converted["_TextLabel2"].Position = UDim2.new(0.248214215, 0, 0.0814145058, 0)
+Converted["_TextLabel2"].Size = UDim2.new(0, 942, 0, 134)
+Converted["_TextLabel2"].Parent = Converted["_Frame"]
+
+Converted["_TextLabel3"].Font = Enum.Font.Code
+Converted["_TextLabel3"].Text = "REMINDER"
+Converted["_TextLabel3"].TextColor3 = Color3.fromRGB(0, 255, 0)
+Converted["_TextLabel3"].TextScaled = true
+Converted["_TextLabel3"].TextSize = 14
+Converted["_TextLabel3"].TextWrapped = true
+Converted["_TextLabel3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel3"].BackgroundTransparency = 1
+Converted["_TextLabel3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel3"].BorderSizePixel = 0
+Converted["_TextLabel3"].Position = UDim2.new(0.247607425, 0, 0.909344673, 0)
+Converted["_TextLabel3"].Size = UDim2.new(0, 942, 0, 36)
+Converted["_TextLabel3"].Parent = Converted["_Frame"]
+
+Converted["_TextLabel4"].Font = Enum.Font.Code
+Converted["_TextLabel4"].Text = "GUI MIGHT TAKE 1-3 SECONDS TO LOAD"
+Converted["_TextLabel4"].TextColor3 = Color3.fromRGB(0, 255, 0)
+Converted["_TextLabel4"].TextScaled = true
+Converted["_TextLabel4"].TextSize = 14
+Converted["_TextLabel4"].TextWrapped = true
+Converted["_TextLabel4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel4"].BackgroundTransparency = 1
+Converted["_TextLabel4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel4"].BorderSizePixel = 0
+Converted["_TextLabel4"].Position = UDim2.new(0.247607425, 0, 0.954232454, 0)
+Converted["_TextLabel4"].Size = UDim2.new(0, 942, 0, 36)
+Converted["_TextLabel4"].Parent = Converted["_Frame"]
+
+-- Fake Module Scripts:
+
+local fake_module_scripts = {}
+
+
+-- Fake Local Scripts:
+
+local function LDUBKR_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.x.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_x"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local gui = script.Parent.Parent.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		gui:Destroy()
+	end)
+end
+local function WJAW_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.l.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_l"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/BTNZY17/O98YHNRF498UV9CXN/main/ivff'.lua"))()
+end
+
+coroutine.wrap(LDUBKR_fake_script)()
+coroutine.wrap(WJAW_fake_script)()
